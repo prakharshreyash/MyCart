@@ -1,290 +1,431 @@
 <HTML>
+
 <head>
 
-<style>
-.dropdown {
-position: relative;
-display: inline-block;
-}
+    <link rel="stylesheet" href="style.css">
 
-.dropdown-content {
-display: none;
-position: absolute;
-background-color: #00008B;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 2);
-padding: 12px 16px
-color: "white";
-}
-
-.dropdown:hover  .dropdown-content {
-display: block;
-
-}
-</style>
-
-<title> MyCart </title>
+    <title> MyCart </title>
 </head>
 
 
 <body bgcolor="#F1F3F6">
 
-<table border = "0" width = "100%" bgcolor = "#00008B">
-<tr>
-<td align="right"><img src = "images\MyCart.png.jfif"></td>
-<td><input type = "text" placeholder = "Search for products, brands & more"></td>
-<th><font color="white">Login & Signup</font></th>
-<th><font color="white">More</font></th>
- <td><img src = "images/cart.PNG"></td>
-</tr>
-</table>
+    <table border="0" width="100%" bgcolor="#00008B">
+        <tr>
+            <td><img src="images\MyCart.png.jfif" class="mylogo"></td>
+            <td><input class="search-bar" type="text" placeholder="Search for products, brands & more"></td>
+            <th>
+                <font class="element" color="white">Login & Signup</font>
+            </th>
+            <th>
+                <font class="element" color="white">More</font>
+            </th>
+            <td><img class="card-btn" src="images/cart.PNG"></td>
+        </tr>
+    </table>
 
-<table border = "0" width = "100%" bgcolor = "white" height = "8%">
-<tr>
-<th width="12.5">
-<div class = "dropdown">
-<span>Electronics</span>
-<div class="dropdown-content">
-<p><font color="white">Charger</font></p>
-<p><font color="white">Laptops</font></p>
-<p><font color="white">Tablets</font></p>
-<p><font color="white">Mobiles</font></p>
-</th>
+    <table border="0" width="100%" bgcolor="white" height="8%">
+        <tr>
+            <th width="12.5">
+                <div class="dropdown">
+                    <span class="menu-element">Electronics</span>
+                    <div class="dropdown-content">
+                        <p>
+                            <font class="element" color="white">Charger</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Laptops</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Tablets</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Mobiles</font>
+                        </p>
+            </th>
 
-<th width="12.5">
-<div class = "dropdown">
-<span>TV & Appliances</span>
-<div class="dropdown-content">
-<p><font color="white">Music Player</font></p>
-<p><font color="white">Remote</font></p>
-<p><font color="white">Speakers</font></p>
-<p><font color="white">TV</font></p>
-</th>
+            <th width="12.5">
+                <div class="dropdown">
+                    <span class="menu-element">TV & Appliances</span>
+                    <div class="dropdown-content">
+                        <p>
+                            <font class="element" color="white">Music Player</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Remote</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Speakers</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">TV</font>
+                        </p>
+            </th>
 
-<th width="12.5">
-<div class = "dropdown">
-</span>Men<span>
-<div class="dropdown-content">
-<p><font color="white">Shoes</font></p>
-<p><font color="white">T-shirt</font></p>
-<p><font color="white">Blazers</font></p>
-<p><font color="white">Formal Pants</font></p>
-</th>
+            <th width="12.5">
+                <div class="dropdown">
+                    <span class="menu-element">Men</span>
+                    <div class="dropdown-content">
+                        <p>
+                            <font class="element" color="white">Shoes</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">T-shirt</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Blazers</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Formal Pants</font>
+                        </p>
+            </th>
 
-<th width="12.5">
-<div class = "dropdown">
-<span>Women</span>
-<div class="dropdown-content">
-<p><font color="white">Necklace</font></p>
-<p><font color="white">Shoes</font></p>
-<p><font color="white">Makeup Kit</font></p>
-<p><font color="white">Sarees</font></p>
-</th>
+            <th width="12.5">
+                <div class="dropdown">
+                    <span class="menu-element">Women</span>
+                    <div class="dropdown-content">
+                        <p>
+                            <font class="element" color="white">Necklace</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Shoes</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Makeup Kit</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Sarees</font>
+                        </p>
+            </th>
 
-<th width="12.5">
-<div class = "dropdown">
-<span>Baby & Kids</span>
-<div class="dropdown-content">
-<p><font color="white">Teddy</font></p>
-<p><font color="white">Doll</font></p>
-<p><font color="white">Remote Cars</font></p>
-<p><font color="white">Pencil Colors</font></p>
-</th>
+            <th width="12.5">
+                <div class="dropdown">
+                    <span class="menu-element">Baby & Kids</span>
+                    <div class="dropdown-content">
+                        <p>
+                            <font class="element" color="white">Teddy</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Doll</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Remote Cars</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Pencil Colors</font>
+                        </p>
+            </th>
 
-<th width="12.5">
-<div class = "dropdown">
-<span>Home & Furniture</span>
-<div class="dropdown-content">
-<p><font color="white">Table</font></p>
-<p><font color="white">Chair</font></p>
-<p><font color="white">Cushion</font></p>
-<p><font color="white">Bed</font></p>
-</th>
+            <th width="12.5">
+                <div class="dropdown">
+                    <span class="menu-element">Home & Furniture</span>
+                    <div class="dropdown-content">
+                        <p>
+                            <font class="element" color="white">Table</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Chair</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Cushion</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Bed</font>
+                        </p>
+            </th>
 
-<th width="12.5">
-<div class = "dropdown">
-<span>Sports, Books & More</span>
-<div class="dropdown-content">
-<p><font color="white">Bats</font></p>
-<p><font color="white">Books & Novels</font></p>
-<p><font color="white">Ball</font></p>
-<p><font color="white">Gloves & Pads</font></p>
-</th>
+            <th width="12.5">
+                <div class="dropdown">
+                    <span class="menu-element">Sports, Books & More</span>
+                    <div class="dropdown-content">
+                        <p>
+                            <font class="element" color="white">Bats</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Books & Novels</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Ball</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Gloves & Pads</font>
+                        </p>
+            </th>
 
-<th width="12.5">
-<div class = "dropdown">
-<span>Offers</span>
-<div class="dropdown-content">
-<p><font color="white">Special Offers</font></p>
-<p><font color="white">Offers on Electonics</font></p>
-<p><font color="white"> Offers on Household</font></p>
-<p><font color="white">Offers on Ladies Fashion</font></p>
-</th>
-</tr>
-</table>
+            <th width="12.5">
+                <div class="dropdown">
+                    <span class="menu-element">Offers</span>
+                    <div class="dropdown-content Offers">
+                        <p>
+                            <font class="element" color="white">Special Offers</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Offers on Electonics</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white"> Offers on Household</font>
+                        </p>
+                        <p>
+                            <font class="element" color="white">Offers on Ladies Fashion</font>
+                        </p>
+            </th>
+        </tr>
+    </table>
 
-<img src = "images\banner1.jpg" width = "100%" height = "46%">
+    <img src="images\banner1.jpg" width="100%" height="46%">
 
-<br><br>
-<table border = "0" width = "100%" bgcolor = "white">
+    <br><br>
+    <table border="0" width="100%" bgcolor="white">
 
-<tr>
-<td colspan = "5"><h2>School Bags</h2><hr></td>
-<tr>
-<th><img src = "images\bag1.png" width ="75%"></th>
-<th><img src = "images\bag2.png" width ="75%"></th>
-<th><img src = "images\bag3.png" width ="75%"></th>
-<th><img src = "images\bag4.png" width ="75%"></th>
-<th><img src = "images\bag5.png" width ="75%"></th>
-</tr>
+        <tr>
+            <td colspan="5">
+                <h2>School Bags</h2>
+                <hr>
+            </td>
+        <tr>
+            <th><img src="images\bag1.png" width="75%" class="product-img"></th>
+            <th><img src="images\bag2.png" width="75%" class="product-img"></th>
+            <th><img src="images\bag3.png" width="75%" class="product-img"></th>
+            <th><img src="images\bag4.png" width="75%" class="product-img"></th>
+            <th><img src="images\bag5.png" width="75%" class="product-img"></th>
+        </tr>
 
-<tr>
-<th><font color="green">Price: 999/-</font></th>
-<th><font color="green">Price: 799/-</font></th>
-<th><font color="green">Price: 599/-</font></th>
-<th><font color="green">Price: 399/-</font></th>
-<th><font color="green">Price: 1299/-</font></th>
-</tr>
-</table>
+        <tr>
+            <th>
+                <font class="element" color="green">Price: 999/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 799/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 599/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 399/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 1299/-</font>
+            </th>
+        </tr>
+    </table>
 
-<br>
-<table border = "0" width = "100%" bgcolor = "white">
-<tr>
-<td colspan = "5"><h2>Earphones</h2><hr></td>
-<tr>
-<th><img src = "images\earphone1.png" width ="75%"></th>
-<th><img src = "images\earphone2.png" width ="75%"></th>
-<th><img src = "images\earphone3.png" width ="75%"></th>
-<th><img src = "images\earphone4.png" width ="75%"></th>
-<th><img src = "images\earphone5.png" width ="75%"></th>
-</tr>
+    <br>
+    <table border="0" width="100%" bgcolor="white">
+        <tr>
+            <td colspan="5">
+                <h2>Earphones</h2>
+                <hr>
+            </td>
+        <tr>
+            <th><img src="images\earphone1.png" width="75%" class="product-img"></th>
+            <th><img src="images\earphone2.png" width="75%" class="product-img"></th>
+            <th><img src="images\earphone3.png" width="75%" class="product-img"></th>
+            <th><img src="images\earphone4.png" width="75%" class="product-img"></th>
+            <th><img src="images\earphone5.png" width="75%" class="product-img"></th>
+        </tr>
 
-<tr>
-<th><font color="green">Price: 1000/-</font></th>
-<th><font color="green">Price: 799/-</font></th>
-<th><font color="green">Price: 599/-</font></th>
-<th><font color="green">Price: 399/-</font></th>
-<th><font color="green">Price: 1200/-</font></th>
-</tr>
-</table>
+        <tr>
+            <th>
+                <font class="element" color="green">Price: 1000/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 799/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 599/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 399/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 1200/-</font>
+            </th>
+        </tr>
+    </table>
 
-</table>
+    </table>
 
-<br>
-<table border = "0" width = "100%" bgcolor = "white">
-<tr>
-<td colspan = "5"><h2>Kitchen Appliances</h2><hr></td>
-<tr>
-<th><img src = "images\kitchen1.png" width ="75%"></th>
-<th><img src = "images\kitchen2.png" width ="75%"></th>
-<th><img src = "images\kitchen3.png" width ="75%"></th>
-<th><img src = "images\kitchen4.png" width ="75%"></th>
-<th><img src = "images\kitchen5.png"width ="75%"></th>
-</tr>
+    <br>
+    <table border="0" width="100%" bgcolor="white">
+        <tr>
+            <td colspan="5">
+                <h2>Kitchen Appliances</h2>
+                <hr>
+            </td>
+        <tr>
+            <th><img src="images\kitchen1.png" width="75%" class="product-img"></th>
+            <th><img src="images\kitchen2.png" width="75%" class="product-img"></th>
+            <th><img src="images\kitchen3.png" width="75%" class="product-img"></th>
+            <th><img src="images\kitchen4.png" width="75%" class="product-img"></th>
+            <th><img src="images\kitchen5.png" width="75%" class="product-img"></th>
+        </tr>
 
-<tr>
-<th><font color="green">Price: 1000/-</font></th>
-<th><font color="green">Price: 799/-</font></th>
-<th><font color="green">Price: 599/-</font></th>
-<th><font color="green">Price: 399/-</font></th>
-<th><font color="green">Price: 1200/-</font></th>
-</tr>
-</table>
+        <tr>
+            <th>
+                <font class="element" color="green">Price: 1000/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 799/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 599/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 399/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 1200/-</font>
+            </th>
+        </tr>
+    </table>
 
-</table>
+    </table>
 
 
-<br>
-<table border = "0" width = "100%" bgcolor = "white">
-<tr>
-<td colspan = "5"><h2>Mobile Phones</h2><hr></td>
-<tr>
-<th><img src = "images\mobile1.png" width ="75%"></th>
-<th><img src = "images\mobile2.png" width ="75%"></th>
-<th><img src = "images\mobile3.png" width ="75%"></th>
-<th><img src = "images\mobile4.png" width ="75%"></th>
-<th><img src = "images\mobile5.png" width ="75%"></th>
-</tr>
+    <br>
+    <table border="0" width="100%" bgcolor="white">
+        <tr>
+            <td colspan="5">
+                <h2>Mobile Phones</h2>
+                <hr>
+            </td>
+        <tr>
+            <th><img src="images\mobile1.png" width="75%" class="product-img"></th>
+            <th><img src="images\mobile2.png" width="75%" class="product-img"></th>
+            <th><img src="images\mobile3.png" width="75%" class="product-img"></th>
+            <th><img src="images\mobile4.png" width="75%" class="product-img"></th>
+            <th><img src="images\mobile5.png" width="75%" class="product-img"></th>
+        </tr>
 
-<tr>
-<th><font color="green">Price: 1000/-</font></th>
-<th><font color="green">Price: 799/-</font></th>
-<th><font color="green">Price: 599/-</font></th>
-<th><font color="green">Price: 399/-</font></th>
-<th><font color="green">Price: 1200/-</font></th>
-</tr>
-</table>
+        <tr>
+            <th>
+                <font class="element" color="green">Price: 1000/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 799/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 599/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 399/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 1200/-</font>
+            </th>
+        </tr>
+    </table>
 
-</table>
+    </table>
 
-<br>
-<table border = "0" width = "100%" bgcolor = "white">
-<tr>
-<td colspan = "5"><h2>Pendrives</h2><hr></td>
-<tr>
-<th><img src = "images\pendrive1.png" width ="75%"></th>
-<th><img src = "images\pendrive2.png" width ="75%"></th>
-<th><img src = "images\pendrive3.png" width ="75%"></th>
-<th><img src = "images\pendrive4.png" width ="75%"></th>
-<th><img src = "images\pendrive5.png" width ="75%"></th>
-</tr>
+    <br>
+    <table border="0" width="100%" bgcolor="white">
+        <tr>
+            <td colspan="5">
+                <h2>Pendrives</h2>
+                <hr>
+            </td>
+        <tr>
+            <th><img src="images\pendrive1.png" width="75%" class="product-img"></th>
+            <th><img src="images\pendrive2.png" width="75%" class="product-img"></th>
+            <th><img src="images\pendrive3.png" width="75%" class="product-img"></th>
+            <th><img src="images\pendrive4.png" width="75%" class="product-img"></th>
+            <th><img src="images\pendrive5.png" width="75%" class="product-img"></th>
+        </tr>
 
-<tr>
-<th><font color="green">Price: 1000/-</font></th>
-<th><font color="green">Price: 799/-</font></th>
-<th><font color="green">Price: 599/-</font></th>
-<th><font color="green">Price: 399/-</font></th>
-<th><font color="green">Price: 1200/-</font></th>
-</tr>
-</table>
+        <tr>
+            <th>
+                <font class="element" color="green">Price: 1000/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 799/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 599/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 399/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 1200/-</font>
+            </th>
+        </tr>
+    </table>
 
-</table>
+    </table>
 
-<br>
-<table border = "0" width = "100%" bgcolor = "white">
-<tr>
-<td colspan = "5"><h2>Mouse</h2><hr></td>
-<tr>
-<th><img src = "images\mouse1.png"  width ="75%"></th>
-<th><img src = "images\mouse2.png" width ="75%"></th>
-<th><img src = "images\mouse3.png" width ="75%"></th>
-<th><img src = "images\mouse4.png" width ="75%"></th>
-<th><img src = "images\mouse5.png" width ="75%"></th>
-</tr>
+    <br>
+    <table border="0" width="100%" bgcolor="white">
+        <tr>
+            <td colspan="5">
+                <h2>Mouse</h2>
+                <hr>
+            </td>
+        <tr>
+            <th><img src="images\mouse1.png" width="75%" class="product-img"></th>
+            <th><img src="images\mouse2.png" width="75%" class="product-img"></th>
+            <th><img src="images\mouse3.png" width="75%" class="product-img"></th>
+            <th><img src="images\mouse4.png" width="75%" class="product-img"></th>
+            <th><img src="images\mouse5.png" width="75%" class="product-img"></th>
+        </tr>
 
-<tr>
-<th><font color="green">Price: 1000/-</font></th>
-<th><font color="green">Price: 799/-</font></th>
-<th><font color="green">Price: 599/-</font></th>
-<th><font color="green">Price: 399/-</font></th>
-<th><font color="green">Price: 1200/-</font></th>
-</tr>
-</table>
+        <tr>
+            <th>
+                <font class="element" color="green">Price: 1000/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 799/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 599/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 399/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 1200/-</font>
+            </th>
+        </tr>
+    </table>
 
-</table>
+    </table>
 
-<br>
-<table border = "0" width = "100%" bgcolor = "white">
-<tr>
-<td colspan = "5"><h2>Teddy</h2><hr></td>
-<tr>
-<th><img src = "images\teddy1.png"  width ="75%"></th>
-<th><img src = "images\teddy2.png" width ="75%"></th>
-<th><img src = "images\teddy3.png" width ="75%"></th>
-<th><img src = "images\teddy4.png" width ="75%"></th>
-<th><img src = "images\teddy5.png" width ="75%"></th>
-</tr>
+    <br>
+    <table border="0" width="100%" bgcolor="white">
+        <tr>
+            <td colspan="5">
+                <h2>Teddy</h2>
+                <hr>
+            </td>
+        <tr>
+            <th><img src="images\teddy1.png" width="75%" class="product-img"></th>
+            <th><img src="images\teddy2.png" width="75%" class="product-img"></th>
+            <th><img src="images\teddy3.png" width="75%" class="product-img"></th>
+            <th><img src="images\teddy4.png" width="75%" class="product-img"></th>
+            <th><img src="images\teddy5.png" width="75%" class="product-img"></th>
+        </tr>
 
-<tr>
-<th><font color="green">Price: 599/-</font></th>
-<th><font color="green">Price: 599/-</font></th>
-<th><font color="green">Price: 599/-</font></th>
-<th><font color="green">Price: 599/-</font></th>
-<th><font color="green">Price: 599/-</font></th>
-</tr>
-</table>
+        <tr>
+            <th>
+                <font class="element" color="green">Price: 599/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 599/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 599/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 599/-</font>
+            </th>
+            <th>
+                <font class="element" color="green">Price: 599/-</font>
+            </th>
+        </tr>
+    </table>
 
-</table>
+    </table>
 
 </body>
+
 </html>
